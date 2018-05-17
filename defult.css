@@ -1,0 +1,415 @@
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+body{
+    font-size: 14px;
+    line-height:22px;
+    font-family:Arial,Helvetica,Sans-Serif;
+    color:#4c4c4c;
+    //background-color:#FFFFFF;
+    background-color: transparent;
+    //border-top:6px solid #FFFFFF;
+    min-width:990px;
+}
+
+/*主体内容的定位*/
+.contain{
+    margin: 0 auto;
+    padding:0;
+}
+
+/*---------------------------------head-----------------------------------*/
+#head{
+    height:30px;
+    min-width:990px;
+}
+
+#logo{
+    float:left;
+    height:41px;
+    margin-top:45px;
+}
+
+/*---------------导航栏---------------*/
+/*#navigation{
+    float:right;
+    margin-top:55px;
+    height:10px;
+}
+.lavaLamp{
+    position:relative;
+    margin-top:5px;
+    height:34px;
+    background-color:#FFFFFF;
+    overflow:hidden;
+}
+让列表变成水平
+.lavaLamp li {
+    float:left;
+    list-style:none;
+}
+鼠标选中项的背景
+.lavaLamp li.backLava{
+    background-color:#E6E8EA;
+    height:34px;
+    width:9px;
+    z-index:2;
+    position:absolute;
+}
+.lavaLamp li a{
+    font: bold 18px arial;
+    text-decoration:none;
+    color:#25A2C2;
+    outline:none;
+    text-align:center;
+    height:34px;
+    top:7px;
+    z-index:3;
+    display:block;
+    float:left;
+    overflow:hidden;
+    margin:auto 10px;
+    position:relative;
+}
+.lavaLamp li a:hover, .lavaLamp li a:active, .lavaLamp li a:visited{
+    border:none;
+}*/
+/*--------新的导航栏样式-----------*/
+#navigation{
+    float:right;
+    margin-top:55px;
+    height:34px;
+}
+.lavaLamp{
+    position:relative;
+    margin-top:5px;
+    height:34px;
+    background-color:#FFFFFF;
+    overflow:hidden;
+}
+.lavaLamp ul{
+    list-style: none;
+}
+/*让列表变成水平*/
+.lavaLamp li {
+    float:left;
+    list-style:none;
+}
+.lavaLamp li a{
+    font: bold 18px arial;
+    text-decoration:none;
+    color:#25A2C2;
+    height: 100%;
+    display:block;
+    outline:none;
+    margin:auto 10px;
+    position:relative;
+    border-right-width: 1px;
+    border-left-color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+.lavaLamp a:hover,.lavaLamp a:focus,.lavaLamp a:active{
+    color:#FFFFFF;
+    background-color: #25A2C2;
+}
+
+/*--------search---------*/
+#search{
+    position:absolute;
+    right:0;
+    top:0;
+    height:21px;
+    width:184px;
+    display:block;
+    background:url("../img/search-bg.gif");
+    background-repeat:no-repeat;
+    padding: 2px 6px 4px 6px;
+}
+
+#search .field{
+    display:block;
+    width:160px;
+    height:21px;
+    background-image:url("../img/search-field-bg.gif");
+    background-position: 0px 0px;
+    float:left;
+}
+#search .search_text{
+    background-color:#FFFFFF;
+    color:#BEBEBE;
+    font-size:10px;
+    line-height:15px;
+    margin:2px;
+    padding:1px 0 1px 2px;
+    text-transform:uppercase;
+    border:none;
+    width:154px;
+    height:15px;
+}
+#search .search_button{
+    display:block;
+    float:left;
+    height:21px;
+    width:24px;
+    border:none;
+    cursor: pointer;
+    background-image:url("../img/search-field-bg.gif");
+    background-repeat: no-repeat;
+    background-position:-160px 0px;
+}
+/*---------------------------------slite----------------------------------*/
+#slider{
+    //background-image:url("../images/slite_sbg.jpg");
+    background-repeat:repeat-x repeat-y;
+    height:360px;
+    min-width:990px;
+	background-color:#FFFFFF;
+}
+#slider .text{
+    float:left;
+    margin-top:38px;
+    height:283px;
+    width:300px;
+    position:relative;
+    color:#FFFFFF;
+    overflow: hidden;
+}
+#slider .text li{
+    text-align: justify;
+    height: 283px;
+    width: 300px;
+    color:#FFFFFF;
+}
+#slider .text .jcarousel-clip{
+    position: relative;
+    width: 283px;
+    height: 350px;
+}
+#slider ul li h2{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: "Lucida Sans", Arial, Sans-serif;
+}
+.img-containter1{
+    float:right;
+    height:359px;
+    width:430px;
+    //width:487px;
+    position:relative;
+    background-color:#FFFFFF;
+    //background-image:url("../images/slider-container.png");
+}
+.yh-contain{
+//turn home left to text
+    margin: 0 auto;
+    padding:0;
+    position:relative;
+    width:400px;
+    background-color:#FFFFFF;
+}
+.img-containter2{
+    float:left;
+    height:360px;
+    width:560px;
+    position:relative;
+    background-color:#FFFFFF;
+    background-image:url("../images/slider-container.png");
+	background-repeat:no-repeat;
+    background-right:1px;
+}
+
+/*
+#slider .img{
+    height:283px;
+    width:487px;
+    margin-top:38px;
+    margin-left:0px;
+    overflow: hidden;
+}
+*/
+#slider  .img-containter1 .img{
+    height:283px;
+    width:430px;
+    //width:487px;
+    margin-top:38px;
+    margin-left:0px;
+    //add margin-right
+    overflow: hidden;
+}
+
+#slider  .img-containter2 .img{
+    height:283px;
+    width:487px;
+    margin-top:38px;
+    margin-left:38px;
+    overflow: hidden;
+}
+
+#slider .nav{
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+}
+#slider .nav a{
+    text-decoration: none;
+    display: block;
+    background-image: url("../images/nav.jpg");
+    background-position:-15px 0;
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    float: left;
+    text-align: center;
+    line-height: 15px;
+}
+#slider .nav a:hover, #slider .nav a.active{
+    background-position:0 0;
+}
+/*----------------------------------mian----------------------------------*/
+.main{
+    min-height: 400px;
+    min-width: 990px;
+}
+/*----------------------------------foot----------------------------------*/
+#footer a{
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-right: 5px;
+    color: #989898;
+}
+#footer{
+    border-top: 1px solid #DDDDDD;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/*-----------------------------------page---------------------------------*/
+#page_head{
+    border-top: 1px solid #DDDDDD;
+}
+
+/*--------------------------------浮动工具栏----------------------------*/
+#tbox{
+    width:54px; 
+    float:right; 
+    position:fixed; 
+    right:50px; 
+    bottom:15px;
+}
+#pinglun,#xiangguan,#gotop{ 
+    width:54px; 
+    height:56px; 
+    background:url(../img/fudong.png) no-repeat; 
+    display:block;
+}
+#pinglun{ 
+    background-position:0 0;
+}
+#xiangguan{ 
+    background-position:0 -59px;
+}
+#gotop{ 
+    background-position:0 -118px;
+} 
+/*------------------------gene_page--------------------------*/
+table{
+    width: 100%;
+}
+/*-----------------------browse-----------------------------*/
+form fieldset{
+    border: #06c dashed 1px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+form fieldset .select{
+    width: 500px;
+    margin-bottom: 10px;
+}
+form fieldset select{
+    float: right;
+    width: 300px;
+}
+form fieldset legend{
+    background-color: #FFFFFF;
+}
+/*----------------------index-----------------------------*/
+#introduction{
+    width: 100%;
+    padding-top: 10px;
+}
+#introduction .fenlan{
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+    text-justify: auto;
+}
+#introduction .fenlan h2{
+    margin-bottom: 10px;
+}
+#introduction .fenlan img{
+    float: right;
+    display: inline;
+}
+#right{
+    margin-right: 0;
+}
+/*-iframe-*/
+iframe { 
+    display: block;
+    height: 800px;
+    width: 934px;
+    
+    border-radius: 4px;
+/*    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;*/
+    border: 1px solid #cfcfcf;
+}
+/*--------------help-----------------*/
+#help-mian .help-block{
+    width: 100%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 2px solid #cccccc;
+    margin: 10px auto 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.help-block  img{
+    width: 900px;
+}
+/*-----analysis results------*/
+.down{
+    width: 150px;
+    margin: auto;
+}
+/*---------------loading--------------*/
+/*loading*/
+.mask { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: #000; 
+    opacity: 0.5;  
+    filter: alpha(opacity=50); 
+    display: none; z-index: 99; 
+}
+.mess { 
+    margin-top:-10px;
+    position:absolute; 
+    display: none; 
+    width: 280px; 
+    height: 200px; 
+    border: 1px solid #ea5302; 
+    border-radius:8px; 
+    background: #ececec; 
+    text-align: center; 
+    padding-top:20px;
+    z-index: 101;
+}

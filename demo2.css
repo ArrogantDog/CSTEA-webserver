@@ -1,0 +1,76 @@
+#geneset_bigbody{
+	text-align: center;
+	font-family: Georgia, Serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	margin:0px 0px 0px 0px;
+	background: #fff;
+}
+#geneset_smallbody {
+	text-align: center;
+	font-family: Georgia, Serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	margin:0px 0px 0px 10px;
+	background: #fff;
+}
+
+.title {
+	font-size: 30px;
+	margin-bottom: 1.5em;
+	font-weight: bold;
+	font-style: Arial,sans-serif;
+	text-shadow: 0px 2px 0px #fff;
+}
+.text{
+	font-size: 20px;
+	margin-bottom: 1.5em;
+	font-weight: normal;
+	font-style: Arial,sans-serif;
+	text-shadow: 0px 2px 0px #fff;
+}
+table {
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	border-collapse: collapse; 
+	background: #fff;
+
+}
+
+	table tr td, table tr th {
+		padding: 5px;
+		vertical-align: top;
+		text-align: left;
+	}
+	
+	table tr th {
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#AAB8C9), to(#6E84A2), color-stop(.5,#6E84A2));
+		background: -moz-linear-gradient(0% 65% 90deg,#6E84A2, #AAB8C9, #AAB8C9 100%);
+		color: #fff;
+		font-weight: bold;
+	}
+	
+	table tr td {
+		cursor: pointer;
+		border-bottom: 1px solid #eaeaea;
+	}
+	
+
+.col-input {
+	width: 3%;
+	background: #87CEEB;
+}
+
+.col-result {
+	width: 30%;
+	padding:0px 0px 0px 0px;
+	background: #eaeaea;
+}
+
+
+
+a, a:visited, a:hover {
+	text-decoration: none;
+	color: #000;
+}
